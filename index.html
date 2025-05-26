@@ -1,11 +1,145 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PA1</title>
+    <title>Carlos Sucasaire - Portafolio Profesional</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    
+    <header class="header">
+        <div class="header-content">
+            <img src="Foto_Personal.jpg" 
+                 alt="Carlos Sucasaire" 
+                 class="profile-img">
+            <h1>Carlos Romario Sucasaire Torres</h1>
+            <p class="subtitle">Químico | Estudiante de Ingeniería de Sistemas</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- Sección Biografía -->
+        <section class="card">
+            <h2 class="section-title">Sobre mí</h2>
+            <div class="bio-content">
+                <p>
+                    Egresado de <strong>Química Pura</strong> por la Universidad Nacional de San Agustín de Arequipa, 
+                    con experiencia en equipos de laboratorio (Absorción Atómica, FTIR, UV-VIS) y herramientas informáticas. 
+                    Actualmente curso <strong>Ingeniería de Sistemas</strong> en la Universidad Continental para integrar ciencia y tecnología.
+                </p>
+                <div class="motivation">
+                    <h3>¿Por qué Ingeniería de Sistemas?</h3>
+                    <p>
+                        Busco desarrollar soluciones tecnológicas que optimicen procesos científicos. 
+                        Mi visión es crear puentes entre el análisis químico y la innovación digital.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Experiencia -->
+        <section class="card">
+            <h2 class="section-title">Experiencia Profesional</h2>
+            
+            <div class="experience-item">
+                <img src="CIDASA.png" 
+                     alt="Planta de producción" 
+                     class="experience-img">
+                <div class="experience-details">
+                    <h3>Encargado del área de macerados</h3>
+                    <div class="meta-info">
+                        <span class="company">CIDASA</span>
+                        <span class="date">Sept 2023 - Ene 2024</span>
+                    </div>
+                    <ul class="responsabilities">
+                        <li>Preparado de colonias C'est Si Bon y Murray & Lanman</li>
+                        <li>Elaboración de Aguas de Florida</li>
+                        <li>Control de calidad de materias primas</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="experience-item">
+                <img src="Divincri.jpg" 
+                     alt="Laboratorio forense" 
+                     class="experience-img">
+                <div class="experience-details">
+                    <h3>Practicante de Química</h3>
+                    <div class="meta-info">
+                        <span class="company">DIVINCRI</span>
+                        <span class="date">Abr 2023 - Sept 2023</span>
+                    </div>
+                    <ul class="responsabilities">
+                        <li>Análisis de restos de disparo</li>
+                        <li>Pericias físico-químicas</li>
+                        <li>Manejo de material de laboratorio</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Integración -->
+        <section class="card integration">
+            <h2 class="section-title">Integración Multidisciplinaria</h2>
+            <div class="integration-grid">
+                <div class="discipline-card">
+                    <img src="Química.webp" 
+                         alt="Química" 
+                         class="discipline-icon">
+                    <h3>🔬 Química</h3>
+                    <ul class="discipline-list">
+                        <li>Análisis instrumental (UV-Vis, IR, potenciometría)</li>
+                        <li>Ensayos de calidad en alimentos y agua</li>
+                        <li>Validación de métodos analíticos</li>
+                        <li>Cumplimiento de normativas DIGESA y protocolos ISO</li>
+                    </ul>
+                </div>
+                
+                <div class="discipline-card">
+                    <img src="Sistemas.jpg" 
+                         alt="Sistemas" 
+                         class="discipline-icon">
+                    <h3>💻 Ingeniería de Sistemas</h3>
+                    <ul class="discipline-list">
+                        <li>Lógica de programación con Python y C</li>
+                        <li>Modelado de bases de datos (MySQL básico)</li>
+                        <li>Estructuras de datos</li>
+                        <li>Primeros proyectos en desarrollo web (HTML, CSS)</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Contacto -->
+        <section class="card contact-section">
+            <h2 class="section-title">Contacto</h2>
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <i class="fas fa-envelope fa-2x contact-icon"></i>
+                    <div>
+                        <h3>Correo Institucional</h3>
+                        <a href="mailto:csucasairet@unsa.edu.pe" class="contact-link">csucasairet@unsa.edu.pe</a>
+                    </div>
+                </div>
+                
+                <div class="contact-card">
+                    <i class="fas fa-envelope fa-2x contact-icon"></i>
+                    <div>
+                        <h3>Correo Institucional</h3>
+                        <a href="mailto:70379386@continental.edu.pe" class="contact-link">70379386@continental.edu.pe</a>
+                    </div>
+                </div>
+
+                <div class="contact-card">
+                    <i class="fas fa-phone-alt fa-2x contact-icon"></i>
+                    <div>
+                        <h3>Teléfono</h3>
+                        <a href="tel:+51975192903" class="contact-link">+51 975 192 903</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
